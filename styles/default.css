@@ -1,6 +1,8 @@
 body 
 { 
   margin:100px; 
+  color: grey;
+  background: teal;
 }
 
 article, aside, figure, footer, header, hgroup, menu, nav, section 
