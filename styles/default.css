@@ -1,4 +1,9 @@
-      body { margin:100px; }
-      article, aside, figure, footer, header, hgroup, menu, nav, section { 
-        display:block;
-      }
+body 
+{ 
+  margin:100px; 
+}
+
+article, aside, figure, footer, header, hgroup, menu, nav, section 
+{ 
+  display:block;
+}
