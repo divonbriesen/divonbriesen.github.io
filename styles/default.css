@@ -1,0 +1,12 @@
+body 
+{ 
+  margin:100px; 
+  color: teal;
+  background: grey;
+  font-family: tahoma;
+}
+
+article, aside, figure, footer, header, hgroup, menu, nav, section 
+{ 
+  display:block;
+}
