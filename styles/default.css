@@ -1,0 +1,17 @@
+body
+{ 
+    font-family: Tahoma;
+    background-color: silver; 
+    color: teal; 
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+a { color: darkgreen; } 
+a:visited { color: chocolate; }
+a:hover { color: darkblue; }
+
+header, footer
+{
+  text-align: center;
+}
