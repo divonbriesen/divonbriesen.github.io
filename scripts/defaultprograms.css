@@ -1,0 +1,81 @@
+body
+{ 
+  /*margin: 10px 10% 10px 10%;*/
+  font-family: verdana;
+  background-color: #003366; /*(darker soft blue?)*/
+  color:  #cccc99; /*light gold*/ 
+}
+
+main
+{
+		
+}
+
+
+footer
+{
+  text-align: center;
+  clear: both;
+}
+
+
+.gened
+{
+    background-color: yellow;
+}
+
+.cticore
+{
+    background-color: orange;
+}
+
+.areacore
+{
+   background-color: blue;
+   color: ivory;
+}
+
+.software
+{
+    background-color: indigo;
+    color: ivory;
+}
+
+.fullstack
+{
+    background-color: violet;
+}
+
+.web
+{
+    background-color: teal;
+}
+
+.transfer
+{
+    border: 2px dashed green;
+}
+
+.fullstack.web, fullstack.software
+{
+    border: 1px solid red;
+}
+
+#div1, #div2, #div3, #div4, #div5, #div6, #div7, #div8 {
+  float: left;
+  width: 360px;
+  height: 350px;
+  margin: 10px;
+  padding: 10px;
+  border: 1px dashed cornflowerblue;
+}
+
+button{
+    width: 350px;
+    height: 40px;
+	text-align: left;
+	color: #000033; /*very dary blue*/
+	background-color: #D4E6F1; /*light blue*/
+	border-radius: 6px;
+	
+}
