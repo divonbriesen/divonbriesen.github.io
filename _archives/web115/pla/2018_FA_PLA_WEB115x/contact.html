@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Transit - Types</title>
+	<script src="./scripts/submit.js"></script>
+	<link rel="stylesheet" type="text/css" href="./styles/styles.css"/>
+	<style>
+	</style>
+</head>
+<body>
+	<nav id="menubar">
+		<img id="logo" alt="train logo" src="https://openclipart.org/image/2400px/svg_to_png/169711/yamanotelinetrain.png">
+		<ul>
+			<li class="menuItem">
+				<a href="index.html">Home</a>
+			</li>
+			<li class="menuItem">
+				<a href="types.html">Types of Rail Transit</a>
+			</li>
+			<li class="menuItem">
+				<a href="contact.html">Contact Us</a>
+			</li>
+		</ul>
+	</nav>
+	<div id="mainContainer">
+		<div id="content">
+			<form name="contact">
+				<label for="firstName">First Name:</label>
+				<input type="text" name="firstName" id="firstName"/><br>
+				<label for="middleName">Middle Name:</label>
+				<input type="text" name="middleName" id="middleName"/><br>
+				<label for="lastName">Last Name:</label>
+				<input type="text" name="lastName" id="lastName"/></><br>
+				<label for="firstName">Address Line 1:</label>
+				<input type="text" name="address1" id="address1"/><br>
+				<label for="firstName">Address Line 2:</label>
+				<input type="text" name="address2" id="address2"/><br>
+				<label for="state">State:</label>
+				<input type="text" name="state" id="state"/><br>
+				<label for="zip">Zip:</label>
+				<input type="text" name="zip" id="zip"/><br>
+				<label for="phone">Phone:</label>
+				<input type="text" name="phone" id="phone"/><br>
+				<label for="email">Email:</label>
+				<input type="text" name="email" id="email"/><br>
+				<label for="inRelationship">In a relationship</label>
+				<input type="radio" name="relationship" value="are" class="relationship"/>
+				<label for="notInRelationship">Not in a relationship</label>
+				<input type="radio" name="relationship" value="aren't" class="relationship"/>
+				<label for="notSay">I'd rather not say</label>
+				<input type="radio" name="relationship" value="[didn't say]" class="relationship"/><br>
+				<label for="cat">Cat</label>
+				<input type="checkbox" name="pets" value="cat" id="cat"/>
+				<label for="dog">Dog</label>
+				<input type="checkbox" name="pets" value="dog" id="dog"/>
+				<label for="fish">Fish</label>
+				<input type="checkbox" name="pets" value="fish" id="fish"/>
+				<label for="lion">Lion</label>
+				<input type="checkbox" name="pets" value="lion" id="lion"/>
+				<label for="zebra">Zebra</label>
+				<input type="checkbox" name="pets" value="zebra" id="zebra"/><br>
+				<label for="dedication">Dedication</label>
+				<textarea name="dedication" id="dedication"></textarea><br>
+			</form>
+			<button onclick="submitForm()">Sumbit</button>
+			<button onclick="resetForm()">Reset</button>
+			<div id="results">
+			</div>
+		</div>
+	</div>
+	<div id="footer">
+		We Know About Trains
+		<div id="time"></div>
+	</div>
+	<script src="./scripts/script.js"></script>
+</body>
+</html>

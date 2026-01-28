@@ -1,0 +1,7 @@
+
+BLOCKED FILE ALERT
+
+A file has been blocked due to the 'Remove Unwanted Filetypes' rule.
+Context: 'script.js'
+
+If this was an attachment you were expecting, please contact the ITS Help Desk at (704)330-5000 or HelpDesk@cpcc.edu

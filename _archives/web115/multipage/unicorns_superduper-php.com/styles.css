@@ -1,0 +1,66 @@
+body
+{
+	color: aqua;
+	background-color: yellow;
+	font-family: tahoma;
+}
+
+h1
+{
+	text-align: center;
+	font-family: Garamond;
+}
+
+header
+{
+	font-size: 100%;
+	text-decoration: none;
+	color: green;
+}
+
+
+
+a
+{
+	text-decoration: none;
+	font-weight: bold;
+	color: red;
+}
+
+a:hover
+{
+	color: orange;
+}
+
+header, footer, .credits
+{
+  text-align: center;
+}
+
+img.one
+{
+    float: left;
+    margin: 10px;
+}
+
+safj lasdf
+{
+	
+}
+
+img.two
+{
+    float: right;
+    margin: 10px;
+}
+
+.linkedimage
+{
+	border: 0px;
+}
+
+#tagline
+{
+	font-style: italic;
+	font-weight: bold;
+}
